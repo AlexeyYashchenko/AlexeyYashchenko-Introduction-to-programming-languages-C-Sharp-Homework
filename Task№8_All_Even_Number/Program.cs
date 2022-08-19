@@ -10,5 +10,6 @@ int count = 0;
 while (count < N-1)
 {
     count +=2;
-    Console.WriteLine(count);
+    Console.Write(count);
+    Console.Write(",");
 }

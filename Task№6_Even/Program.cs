@@ -6,9 +6,9 @@
 Console.Write("Введите число = ");
 int num = int.Parse(Console.ReadLine());
 
-int result = num %2;
+num = num %2;
 
-if (result == 0)
+if (num == 0)
 {
     Console.WriteLine("Введенное число является ЧЕТНЫМ");
 }

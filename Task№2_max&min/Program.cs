@@ -8,16 +8,15 @@ Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
 
 if (b > a)
-{ 
-    Console.Write("Большее число второе = ");
-    Console.WriteLine(b);
-    Console.Write("Меньшее число первое = ");
-    Console.WriteLine(a);
-}
-else
 {
-   Console.Write("Большее число первое = ");
-   Console.WriteLine(a);
-   Console.Write("Меньшее число второе = ");
-   Console.WriteLine(b);
+    Console.WriteLine($"Большее число второе = {b}");          // 1 вариант
+    Console.WriteLine("Меньшее число первое = {0}", a);       // 2 вариант
+}
+
+if (b < a) 
+{
+    Console.WriteLine($"Большее число первое ={a}"); 
+    Console.WriteLine($"Меньшее число второе = {b}");
+   //Console.Write("Меньшее число второе = ");              //3 вариант
+   //Console.WriteLine(b);
 }

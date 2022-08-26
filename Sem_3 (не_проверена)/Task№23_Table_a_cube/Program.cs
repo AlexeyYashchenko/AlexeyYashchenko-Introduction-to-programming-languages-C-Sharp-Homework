@@ -8,7 +8,7 @@ int count = 1;
 
 while (count <= N)
 {
-    Console.Write($"{Math.Pow(count,3)} "); // Я РЕШИЛ БЕЗ double, ЭТО ПРАВИЛЬНОЕ РЕШЕНИЕ ?
+    Console.Write($"{Math.Pow(count,3)} "); 
     count++;
 }
 Console.WriteLine();
